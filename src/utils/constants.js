@@ -3,3 +3,12 @@ export const LOGO =
 
 export const USER_AVATAR =
   "https://matrixstore.pk/wp-content/uploads/2021/04/DmBraqkXcAA1Yco.jpg";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZGRiN2I5Mzc3ZjhmMzVkOGZiNGE1MTk5M2NhN2EwYSIsInN1YiI6IjY1MGQxMjA1ZjkyNTMyMDEwYmFmZmIzZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.SakBKRxOQKnMX2heP3aDPVjp0BKmEK9SYBQ6hjwxYUw",
+  },
+};
